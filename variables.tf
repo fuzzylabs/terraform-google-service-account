@@ -16,6 +16,7 @@ variable "name" {
 variable "display_name" {
   description = "The Display Name of the service account"
   type        = string
+  default     = "Provisioned by Terraform"
 }
 
 variable "roles" {
